@@ -1,39 +1,79 @@
-﻿<html>
-
-<head>
-
+<!DOCTYPE html>
+<html>
 <title>F4EN | Welcome</title>
-<style type="text/css">
-@font-face {
-    font-family: Bryndan Hand;
-    src: url("Bryndan_Hand.ttf") format('truetype');
-    font-weight: bold;
-    font-style: normal;
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.auto-style1 {
-	text-align: center;
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
 }
-.auto-style2 {
-	text-align: center;
-	font-family: "Bryndan Hand";
-	font-size: xx-large;
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 15px;
+  border-radius: 4px;
 }
-.auto-style3 {
-	text-align: center;
-	font-family: Calibri;
+
+.header a.logo {
+  font-size: 20px;
+  font-weight: bold;
 }
-.auto-style4 {
-	color: #258FDE;
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
 }
 </style>
 </head>
-
 <body>
 
-<p class="auto-style2">F4<span class="auto-style4">EN</span></p>
-<p class="auto-style1">&nbsp;</p>
-<p class="auto-style3">Coming Soon</p>
+<div class="header">
+  <a href="#default" class="logo">F4EN: Build Engineering Applications using Python and Flask</a>
+  <div class="header-right">
+    <a class="active" href="#home">Buy</a>
+    <a href="#contact">Code Access</a>
+    <a href="#about">Report Error</a>
+  </div>
+</div>
+
+<div style="padding-left:20px">
+Coming Soon!
+</div>
 
 </body>
-
 </html>
