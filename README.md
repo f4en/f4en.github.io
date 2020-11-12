@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/F4EN-F4EN%3A%20Build%20Engineering%20Applications%20using%20Python%20and%20Flask-blue" align="right"/>
+<img src="https://img.shields.io/badge/F4EN-F4EN%3A%20Build%20Engineering%20Applications%20using%20Python%20and%20Flask-blue" align="left"/>
 **F4EN: Build Engineering Applications using Python and Flask**, Pushkar Sheth
 
 <img src="images/f4en_bookcover.png" width="20%" alt="Front cover" align="left"/>
