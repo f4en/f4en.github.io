@@ -4,5 +4,5 @@
 
 <img src="images/f4en_bookcover.png" width="20%" alt="Front cover" align="left"/>
 
-An text book on building engineering applications using python and flask to
-be released in November 2020. The eBook book will be available on Amazon Kindle.
+An text book on building engineering applications using Python and Flask to
+be released in November 2020. The eBook will be available on Amazon Kindle.
